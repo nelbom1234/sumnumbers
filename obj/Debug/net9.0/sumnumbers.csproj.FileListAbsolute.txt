@@ -1,0 +1,14 @@
+C:\Users\nin\Documents\p2\sumnumbers\bin\Debug\net9.0\sumnumbers.exe
+C:\Users\nin\Documents\p2\sumnumbers\bin\Debug\net9.0\sumnumbers.deps.json
+C:\Users\nin\Documents\p2\sumnumbers\bin\Debug\net9.0\sumnumbers.runtimeconfig.json
+C:\Users\nin\Documents\p2\sumnumbers\bin\Debug\net9.0\sumnumbers.dll
+C:\Users\nin\Documents\p2\sumnumbers\bin\Debug\net9.0\sumnumbers.pdb
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.AssemblyInfoInputs.cache
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.AssemblyInfo.cs
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.csproj.CoreCompileInputs.cache
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.dll
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\refint\sumnumbers.dll
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.pdb
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\sumnumbers.genruntimeconfig.cache
+C:\Users\nin\Documents\p2\sumnumbers\obj\Debug\net9.0\ref\sumnumbers.dll
