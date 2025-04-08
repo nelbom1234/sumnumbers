@@ -2,6 +2,7 @@
 
 using NUnit.Framework.Internal;
 using sumtal;
+using System;
 
 public class Tests
 {
@@ -25,6 +26,12 @@ public class Tests
     }
 
     [Test]
+    public void TestForNegative() {
+        int result = new ForSum().CalculateSum(-2);
+        Assert.That(result == 0);
+    }
+
+    [Test]
     public void TestArithmetic() {
         int result = new ArithmeticSum().CalculateSum(10);
         Assert.That(result == 55);
@@ -33,6 +40,12 @@ public class Tests
     [Test]
     public void TestArithmeticZero() {
         int result = new ArithmeticSum().CalculateSum(0);
+        Assert.That(result == 0);
+    }
+
+    [Test]
+    public void TestArithmeticNegative() {
+        int result = new ArithmeticSum().CalculateSum(-2);
         Assert.That(result == 0);
     }
 
@@ -49,6 +62,12 @@ public class Tests
     }
 
     [Test]
+    public void TestForEachNegative() {
+        int result = new ForEachSum().CalculateSum(-2);
+        Assert.That(result == 0);
+    }
+
+    [Test]
     public void TestWhile() {
         int result = new WhileSum().CalculateSum(15);
         Assert.That(result == 120);
@@ -61,6 +80,12 @@ public class Tests
     }
 
     [Test]
+    public void TestWhileNegative() {
+        int result = new WhileSum().CalculateSum(-2);
+        Assert.That(result == 0);
+    }
+
+    [Test]
     public void TestRecursive() {
         int result = new RecursiveSum().CalculateSum(9);
         Assert.That(result == 45);
@@ -69,6 +94,12 @@ public class Tests
     [Test]
     public void TestRecursiveZero() {
         int result = new RecursiveSum().CalculateSum(0);
+        Assert.That(result == 0);
+    }
+
+    [Test]
+    public void TestRecursiveNegative() {
+        int result = new RecursiveSum().CalculateSum(-2);
         Assert.That(result == 0);
     }
 }
