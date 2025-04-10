@@ -13,6 +13,13 @@ public class Tests
     }
 
     [Test]
+    public void TestGetNumber() {
+        Console.SetIn(new StringReader("5"));
+        int result = Number.GetNumber();
+        Assert.That(result == 5);
+    }
+
+    [Test]
     public void TestFor()
     {
         int result = new ForSum().CalculateSum(7);

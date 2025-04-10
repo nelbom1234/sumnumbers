@@ -1,6 +1,6 @@
 namespace sumtal;
 
-class Number {
+public class Number {
     public static int GetNumber() {
         int tal;
         string? result;
